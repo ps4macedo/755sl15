@@ -1,7 +1,7 @@
 function jailbreak(){
 var ropchain_array = new Uint32Array(482118);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
-setTimeout(function{
+setTimeout(function(){
 var ropchain_offset = 2;
 function set_gadget(val)
 {
@@ -150673,4 +150673,4 @@ localStorage.passcount=++localStorage.passcount;window.passCounter.innerHTML=loc
 window.desempenho.innerHTML=localStorage.desempenho;localStorage.infoDesb="<font style='color:#6089f6'>Exploração do kernel realizada.</font>";
 window.infoDesb.innerHTML=localStorage.infoDesb; load_hen();}
 else{
-localStorage.failcount=++localStorage.failcount,window.failCounter.innerHTML=localStorage.failcount,localStorage.desempenho=Math.round(parseInt(localStorage.passcount)/(parseInt(localStorage.passcount)+parseInt(localStorage.failcount))*100),window.desempenho.innerHTML=localStorage.desempenho,localStorage.infoDesb="<font style='color:#ee596f'>Exploração do kernel FALHOU!!!</font>",window.infoDesb.innerHTML=localStorage.infoDesb,window.progress.innerHTML="<font style='color:#ee596f'>\tA EXPLORAÇÃO DO KERNEL FALHOU!!!</font>",window.msgs.innerHTML="<br><br><br><font style='color:#ee596f'>Reinicie o PS4 e tente novamente.</font><br><br> Para efitar kps seguidos, <font style='color:#6089f6'>RECOMENDO</font> que reinicie, baixe novamente a cahce, desabilite a rede, desligue totalmente o PS4,<br>e aguarde uns 5 minutos, só então, tente novamente."}},2e3)}
+localStorage.failcount=++localStorage.failcount,window.failCounter.innerHTML=localStorage.failcount,localStorage.desempenho=Math.round(parseInt(localStorage.passcount)/(parseInt(localStorage.passcount)+parseInt(localStorage.failcount))*100),window.desempenho.innerHTML=localStorage.desempenho,localStorage.infoDesb="<font style='color:#ee596f'>Exploração do kernel FALHOU!!!</font>",window.infoDesb.innerHTML=localStorage.infoDesb,window.progress.innerHTML="<font style='color:#ee596f'>\tA EXPLORAÇÃO DO KERNEL FALHOU!!!</font>",window.msgs.innerHTML="<br><br><br><font style='color:#ee596f'>Reinicie o PS4 e tente novamente.</font><br><br> Para efitar kps seguidos, <font style='color:#6089f6'>RECOMENDO</font> que reinicie, baixe novamente a cahce, desabilite a rede, desligue totalmente o PS4, e aguarde uns 5 minutos, só então, tente novamente."}},2e3)}
